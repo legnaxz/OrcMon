@@ -15,8 +15,8 @@ all: $(PROJECTS)
 
 OrcMon: 
 	@echo ==== Building OrcMon ====
-	@${MAKE} --no-print-directory -C . -f watcher_demo.make
+	@${MAKE} --no-print-directory -C . -f orcmon.make
 
 clean:
-	@${MAKE} --no-print-directory -C . -f watcher_demo.make clean
+	@${MAKE} --no-print-directory -C . -f orcmon.make clean
 
