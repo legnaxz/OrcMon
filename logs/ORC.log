@@ -1,0 +1,4 @@
+[2021-10-28 11:06:54,854][INFO ][0x7fb7f74f58c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-10-28 11:06:54,854][FATAL][0x7fb7f74f58c0][orc.Manager::initialize] Can not load configuration sub-set for "orc_config"
+[2021-10-28 11:07:41,036][INFO ][0x7fbd7d2e38c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-10-28 11:07:41,037][INFO ][0x7fbd7d2e38c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
