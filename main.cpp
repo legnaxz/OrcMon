@@ -1,4 +1,4 @@
-#include <FileWatcher/FileWatcher.h>
+#include <DirectoryWatcher/DirectoryWatcher.h>
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
@@ -22,12 +22,12 @@
 
 using namespace std;
 
-class UpdateListener : public FW::FileWatchListener
+class UpdateListener : public orc::DirectoryWatchListener
 {
     public:
         UpdateListener() {}
-        void handleFileAction(FW::WatchID watchid, const FW::String& dir, const FW::String& filename,
-            FW::Action action)
+        void handleFileAction( unsigned long watchid, const std::string& dir, const std::string& filename,
+            orc::Action action )
         {
             std::cout << "DIR (" << dir + ") FILE (" + filename + ") has event " << action << std::endl;
         }
@@ -35,14 +35,13 @@ class UpdateListener : public FW::FileWatchListener
 
 int main ( int argc, char ** argv )
 {
-
     try
     {
         UpdateListener listener;
 
-        FW::FileWatcher filewatcher;
+        orc::DirectoryWatcher directory_watcher;
 
-        FW::WatchID watchID = filewatcher.addWatch("/home/yes/sktstt/", &listener, true);
+        unsigned long watchID = directory_watcher.addWatch("/home/yes/sktstt/", &listener, true);
 
         log4cxx::PropertyConfigurator::configure( log4cxx::File( LOG4CXX_CONFIG_FILE ) );
         log4cxx::LoggerPtr logger( log4cxx::Logger::getLogger( "orc" ) );
@@ -57,7 +56,7 @@ int main ( int argc, char ** argv )
 
 		while(1)
 		{
-			filewatcher.update();
+			directory_watcher.update();
 		}
     }
     catch(const std::exception& e)

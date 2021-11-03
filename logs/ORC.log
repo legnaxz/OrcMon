@@ -1,0 +1,2 @@
+[2021-11-02 13:32:57,793][INFO ][0x7f0ecdc818c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-02 13:32:57,793][INFO ][0x7f0ecdc818c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
