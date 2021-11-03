@@ -11,13 +11,14 @@
 #include <boost/thread.hpp>
 
 namespace orc {
+
     Manager::OrcConfigFileInfo::OrcConfigFileInfo( void )
         : Config::SubSet( "orc_config_file" )
     {}
 
     bool Manager::OrcConfigFileInfo::bind( void )
     {
-        if ( false ==  string( "version", this->version_) ) {
+        if ( false ==  string( "version", this->version_ ) ) {
             version_.clear();
             return false;
         } 
@@ -63,10 +64,10 @@ namespace orc {
 
     };
 
-    log4cxx::LoggerPtr Manager::Private::Logger_ = log4cxx::Logger::getLogger("Manager");
+    log4cxx::LoggerPtr Manager::Private::Logger_ = log4cxx::Logger::getLogger( "Manager" );
 
     Manager::Manager( void )
-        : private_( new Private( this ))
+        : private_( new Private( this ) )
     {}
 
     Manager::~Manager( void )

@@ -66,6 +66,8 @@ ifeq ($(config),release)
 endif
 
 OBJECTS := \
+	$(OBJDIR)/FileWatcher.o \
+	$(OBJDIR)/FileWatcherLinux.o \
   $(OBJDIR)/DirectoryWatcher.o \
   $(OBJDIR)/config.o \
   $(OBJDIR)/manager.o \
@@ -128,6 +130,12 @@ $(GCH): $(PCH)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
 endif
 
+$(OBJDIR)/FileWatcher.o: ./source/FileWatcher/FileWatcher.cpp
+	@echo $(notdir $<)
+	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
+$(OBJDIR)/FileWatcherLinux.o: ./source/FileWatcher/FileWatcherLinux.cpp
+	@echo $(notdir $<)
+	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
 $(OBJDIR)/DirectoryWatcher.o: ./source/DirectoryWatcher/DirectoryWatcher.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<  
