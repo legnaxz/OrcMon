@@ -1,4 +1,4 @@
-#include "DirectoryWatcher/DirectoryWatcher.h"
+#include "directorywatcher.h"
 
 #include <map>
 #include <sys/stat.h>

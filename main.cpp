@@ -1,4 +1,4 @@
-#include <DirectoryWatcher/DirectoryWatcher.h>
+#include <directorywatcher.h>
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
