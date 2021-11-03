@@ -128,7 +128,7 @@ $(GCH): $(PCH)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
 endif
 
-$(OBJDIR)/DirectoryWatcher.o: ./source/DirectoryWatcher/DirectoryWatcher.cpp
+$(OBJDIR)/DirectoryWatcher.o: ./source/directorywatcher.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<  
 $(OBJDIR)/config.o: ./source/config.cpp
