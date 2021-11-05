@@ -94,12 +94,12 @@ public:
 				throw Exception(strerror( errno ) );
 		}
 		
-		WatchStruct* pWatch = new WatchStruct();
-		pWatch->listener_ = watch_listener;
-		pWatch->watch_id_ = wd;
-		pWatch->dir_path_ = directory;
+		WatchStruct* watch_ptr = new WatchStruct();
+		watch_ptr->listener_ = watch_listener;
+		watch_ptr->watch_id_ = wd;
+		watch_ptr->dir_path_ = directory;
 		
-		watches_.insert(std::make_pair(wd, pWatch));
+		watches_.insert( std::make_pair( wd, watch_ptr ) );
 	
 		return wd;
     }
@@ -172,20 +172,17 @@ public:
 
         if ( IN_CLOSE_WRITE & action )
         {
-            watch->listener_->handleFileAction( watch->watch_id_, watch->dir_path_, filename,
-                                                Action::Modified );
+            watch->listener_->handleFileAction( watch->watch_id_, watch->dir_path_, filename, Action::Modified );
         }
 
         if( IN_MOVED_TO & action || IN_CREATE & action )
         {
-            watch->listener_->handleFileAction( watch->watch_id_, watch->dir_path_, filename,
-                                                Action::Add );
+            watch->listener_->handleFileAction( watch->watch_id_, watch->dir_path_, filename, Action::Add );
         }
 
         if( IN_MOVED_FROM & action || IN_DELETE & action )
         {
-            watch->listener_->handleFileAction( watch->watch_id_, watch->dir_path_, filename,
-                                                Action::Delete );
+            watch->listener_->handleFileAction( watch->watch_id_, watch->dir_path_, filename, Action::Delete );
         }
     }
 

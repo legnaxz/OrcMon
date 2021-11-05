@@ -1,13 +1,16 @@
-#include <directorywatcher.h>
+
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
 #include <jsoncpp/json/json.h>
 #include <utility>
 #include <fstream>
+#include <stdlib.h>
 
 #include "manager.h"
 #include "version.h"
+#include "directorywatcher.h"
+#include "codecs.h"
 
 #include <log4cxx/logger.h>
 #include <log4cxx/basicconfigurator.h>
@@ -26,10 +29,16 @@ class UpdateListener : public orc::DirectoryWatchListener
 {
     public:
         UpdateListener() {}
-        void handleFileAction( unsigned long watchid, const std::string& dir, const std::string& filename,
-            orc::Action action )
+        void handleFileAction( unsigned long watchid, const std::string& dir, const std::string& filename, orc::Action action )
         {
-            std::cout << "DIR (" << dir + ") FILE (" + filename + ") has event " << action << std::endl;
+            if ( filename.find( ".wav" ) >= 0 && orc::Actions::Add == action)
+            {
+                std::cout << "a__DIR (" << dir + ") FILE (" + filename + ") has event " << action << std::endl;
+                string path = dir + filename;
+                std::cout << path << endl;
+                orc::Codecs cd;
+                cd.wavSplit( path, dir );
+            }
         }
 };
 
@@ -41,6 +50,7 @@ int main ( int argc, char ** argv )
 
         orc::DirectoryWatcher directory_watcher;
 
+        //Todo parsing from json 
         unsigned long watchID = directory_watcher.addWatch("/home/yes/sktstt/", &listener, true);
 
         log4cxx::PropertyConfigurator::configure( log4cxx::File( LOG4CXX_CONFIG_FILE ) );
@@ -63,5 +73,4 @@ int main ( int argc, char ** argv )
     {
         std::cerr << e.what() << '\n';
     }
-    
 }

@@ -3,7 +3,8 @@
         "version" : "1.0.0"
     },
     "orc" : {
-        "base_dir": "/home/yes/ffmpeg",
-        "mode" : "Active"
+        "base_dir": "/home/yes/data",
+        "mode" : "Active",
+        "target_ip" : "218.36.72.199"
     }
 }
