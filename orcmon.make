@@ -29,8 +29,10 @@ ifeq ($(config),debug)
   CPPFLAGS  += -MMD $(DEFINES) $(INCLUDES)
   CFLAGS    += $(CPPFLAGS) $(ARCH) -g -std=c++11
   CXXFLAGS  += $(CFLAGS) 
-  LDFLAGS   += 
+  LDFLAGS   += -L./libs
   LIBS      += -lpthread -ljsoncpp -llog4cxx
+  LIBS      += -lavcodec -lavutil -lavformat -lavfilter
+  #LIBS      += -lavcodec -lavformat -lavutil -lavdevice -lavfilter
   RESFLAGS  += $(DEFINES) $(INCLUDES) 
   LDDEPS    += 
   LINKCMD    = $(CXX) -o $(TARGET) $(LDFLAGS) $(OBJECTS) $(RESOURCES) $(ARCH) $(LIBS)
@@ -48,7 +50,7 @@ ifeq ($(config),release)
   TARGET     = $(TARGETDIR)/OrcMon.exe
   DEFINES   += -DNDEBUG
   INCLUDES  += -I./include
-  INCLUDES  += -I./usr/include
+  #INCLUDES  += -I./usr/include
   CPPFLAGS  += -MMD $(DEFINES) $(INCLUDES)
   CFLAGS    += $(CPPFLAGS) $(ARCH) -O2
   CXXFLAGS  += $(CFLAGS) 
@@ -67,6 +69,7 @@ endif
 
 OBJECTS := \
   $(OBJDIR)/DirectoryWatcher.o \
+  $(OBJDIR)/Codecs.o \
   $(OBJDIR)/config.o \
   $(OBJDIR)/manager.o \
 	$(OBJDIR)/OrcMon.o \
@@ -128,6 +131,9 @@ $(GCH): $(PCH)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
 endif
 
+$(OBJDIR)/Codecs.o: ./source/codecs.cpp
+	@echo $(notdir $<)
+	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<  
 $(OBJDIR)/DirectoryWatcher.o: ./source/directorywatcher.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<  
