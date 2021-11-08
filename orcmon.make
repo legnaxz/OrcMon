@@ -31,8 +31,7 @@ ifeq ($(config),debug)
   CXXFLAGS  += $(CFLAGS) 
   LDFLAGS   += -L./libs
   LIBS      += -lpthread -ljsoncpp -llog4cxx
-  LIBS      += -lavcodec -lavutil -lavformat -lavfilter
-  #LIBS      += -lavcodec -lavformat -lavutil -lavdevice -lavfilter
+  LIBS      += -lboost_system -lboost_thread
   RESFLAGS  += $(DEFINES) $(INCLUDES) 
   LDDEPS    += 
   LINKCMD    = $(CXX) -o $(TARGET) $(LDFLAGS) $(OBJECTS) $(RESOURCES) $(ARCH) $(LIBS)

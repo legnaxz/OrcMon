@@ -166,3 +166,158 @@
 [2021-11-05 15:41:58,575][INFO ][0x7f8e589968c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
 [2021-11-05 15:42:01,595][DEBUG][0x7f8e589968c0][orc.Codecs::Private::wavSplit] Is Wav File.
 [2021-11-05 15:42:01,595][DEBUG][0x7f8e589968c0][orc.Codecs::Private::wavSplit] Is G729 Format.
+[2021-11-06 10:55:46,930][INFO ][0x7ff6512ba8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 10:55:46,930][INFO ][0x7ff6512ba8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 10:55:53,425][DEBUG][0x7ff6512ba8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 10:55:53,425][DEBUG][0x7ff6512ba8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 10:57:25,220][INFO ][0x7fa9670438c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 10:57:25,220][INFO ][0x7fa9670438c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 10:57:42,010][DEBUG][0x7fa9670438c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 10:57:42,010][DEBUG][0x7fa9670438c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 10:57:42,049][DEBUG][0x7fa9670438c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 10:57:42,049][DEBUG][0x7fa9670438c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 10:59:31,391][INFO ][0x7fe647dab8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 10:59:31,392][INFO ][0x7fe647dab8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 10:59:37,206][DEBUG][0x7fe647dab8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 10:59:37,206][DEBUG][0x7fe647dab8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 10:59:44,334][DEBUG][0x7fe647dab8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 10:59:44,334][DEBUG][0x7fe647dab8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:02:20,891][INFO ][0x7fd95c8338c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:02:20,891][INFO ][0x7fd95c8338c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:02:26,010][DEBUG][0x7fd95c8338c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:02:26,010][DEBUG][0x7fd95c8338c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:02:43,438][DEBUG][0x7fd95c8338c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:02:43,438][DEBUG][0x7fd95c8338c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:03:02,736][INFO ][0x7f93772448c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:03:02,736][INFO ][0x7f93772448c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:03:06,900][DEBUG][0x7f93772448c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:03:06,900][DEBUG][0x7f93772448c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:03:33,096][DEBUG][0x7f93772448c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:03:33,096][DEBUG][0x7f93772448c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:04:40,948][INFO ][0x7fb986d418c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:04:40,949][INFO ][0x7fb986d418c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:04:43,925][DEBUG][0x7fb986d418c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:04:43,925][DEBUG][0x7fb986d418c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:04:43,956][DEBUG][0x7fb986d418c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:04:43,956][DEBUG][0x7fb986d418c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:05:18,144][INFO ][0x7ff01bc8c8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:05:18,144][INFO ][0x7ff01bc8c8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:05:20,739][DEBUG][0x7ff01bc8c8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:05:20,739][DEBUG][0x7ff01bc8c8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:05:20,767][DEBUG][0x7ff01bc8c8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:05:20,768][DEBUG][0x7ff01bc8c8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:06:35,573][INFO ][0x7f885620a8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:06:35,573][INFO ][0x7f885620a8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:06:37,236][DEBUG][0x7f885620a8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:06:37,236][DEBUG][0x7f885620a8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:06:37,270][DEBUG][0x7f885620a8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:06:37,270][DEBUG][0x7f885620a8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 11:08:36,827][INFO ][0x7f9624d188c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:08:36,829][INFO ][0x7f9624d188c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:09:37,021][INFO ][0x7f514cc498c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 11:09:37,021][INFO ][0x7f514cc498c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 11:09:43,273][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 11:09:43,273][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 20:08:14,881][INFO ][0x7fb64a1228c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:08:14,882][FATAL][0x7fb64a1228c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-06 20:08:14,882][DEBUG][0x7fb64a1228c0][.main] Press ^C to exit demo
+[2021-11-06 20:10:18,540][INFO ][0x7ffff7fd18c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:10:18,540][FATAL][0x7ffff7fd18c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-06 20:10:18,540][DEBUG][0x7ffff7fd18c0][.main] Press ^C to exit demo
+[2021-11-06 20:13:16,803][INFO ][0x7f769e9558c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:13:16,803][FATAL][0x7f769e9558c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-06 20:13:16,803][DEBUG][0x7f769e9558c0][.main] Press ^C to exit demo
+[2021-11-06 20:13:38,892][INFO ][0x7feb92c888c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:13:38,896][INFO ][0x7feb92c888c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 20:13:38,897][DEBUG][0x7feb92c888c0][.main] Press ^C to exit demo
+[2021-11-06 20:13:43,618][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 20:13:43,618][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 20:13:43,620][DEBUG][0x7feb92c888c0][orc.Codecs::Private::wavSplit] Is PCM File.
+[2021-11-06 20:13:43,680][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 20:13:43,680][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 20:14:47,855][INFO ][0x7f9432dfb8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:14:47,855][INFO ][0x7f9432dfb8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 20:14:47,855][DEBUG][0x7f9432dfb8c0][.main] Press ^C to exit demo
+[2021-11-06 20:15:38,041][INFO ][0x7f4b104288c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:15:38,042][INFO ][0x7f4b104288c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 20:15:38,042][DEBUG][0x7f4b104288c0][.main] Press ^C to exit demo
+[2021-11-06 20:16:52,003][INFO ][0x7fe7f19648c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-06 20:16:52,018][INFO ][0x7fe7f19648c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-06 20:16:52,018][DEBUG][0x7fe7f19648c0][.main] Press ^C to exit demo
+[2021-11-06 20:16:52,032][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 20:16:52,032][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 20:17:02,941][DEBUG][0x7fe7f19648c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 20:17:02,941][DEBUG][0x7fe7f19648c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-06 20:17:02,944][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-06 20:17:02,944][DEBUG][0x7f514cc498c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-07 19:40:48,935][INFO ][0x7ff8f1a688c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:40:48,939][INFO ][0x7ff8f1a688c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:41:32,753][INFO ][0x7f31ee2ff8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:41:32,754][INFO ][0x7f31ee2ff8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:42:35,579][INFO ][0x7f5fde39c8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:42:35,579][INFO ][0x7f5fde39c8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:43:34,684][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:43:34,684][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:47:09,999][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:47:09,999][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:51:19,469][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:51:19,469][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:57:06,480][INFO ][0x7f717c40a8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:57:06,480][INFO ][0x7f717c40a8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 19:57:30,201][INFO ][0x7fdf0c00b8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 19:57:30,201][INFO ][0x7fdf0c00b8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:02:13,843][INFO ][0x7fb8655188c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 20:02:13,843][INFO ][0x7fb8655188c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:03:22,418][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 20:03:22,418][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:21:21,163][INFO ][0x7fb0f569c8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 20:21:21,164][INFO ][0x7fb0f569c8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:22:17,461][INFO ][0x7f7e145288c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 20:22:17,462][INFO ][0x7f7e145288c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:55:19,534][INFO ][0x7fbf206008c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 20:55:19,535][INFO ][0x7fbf206008c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:55:19,535][DEBUG][0x7fbf206008c0][.main] Press ^C to exit demo
+[2021-11-07 20:55:27,900][DEBUG][0x7fbf206008c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-07 20:55:27,900][DEBUG][0x7fbf206008c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-07 20:55:27,903][DEBUG][0x7fbf1a359700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-07 20:55:27,903][DEBUG][0x7fbf1a359700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-07 20:56:07,212][INFO ][0x7fd4dee318c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-07 20:56:07,218][INFO ][0x7fd4dee318c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-07 20:56:07,218][DEBUG][0x7fd4dee318c0][.main] Press ^C to exit demo
+[2021-11-07 20:56:10,021][DEBUG][0x7fd4d8b8a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-07 20:56:10,021][DEBUG][0x7fd4d8b8a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-07 20:56:10,024][DEBUG][0x7fd4dee318c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-07 20:56:10,024][DEBUG][0x7fd4dee318c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-08 13:47:11,777][INFO ][0x7fd43e3088c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 13:47:11,777][FATAL][0x7fd43e3088c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-08 13:47:11,777][DEBUG][0x7fd43e3088c0][.main] Press ^C to exit demo
+[2021-11-08 13:47:26,110][DEBUG][0x7fd43e3088c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-08 13:47:26,110][DEBUG][0x7fd43e3088c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-08 13:47:43,190][INFO ][0x7f4d369bb8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 13:47:43,191][FATAL][0x7f4d369bb8c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-08 13:47:43,191][DEBUG][0x7f4d369bb8c0][.main] Press ^C to exit demo
+[2021-11-08 13:51:48,692][DEBUG][0x7f4d369bb8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-08 13:51:48,692][DEBUG][0x7f4d369bb8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-08 14:02:44,406][INFO ][0x7f0344a5f8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 14:02:44,406][FATAL][0x7f0344a5f8c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-08 14:02:44,406][DEBUG][0x7f0344a5f8c0][.main] Press ^C to exit demo
+[2021-11-08 14:41:27,690][INFO ][0x7f7971adf8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 14:41:27,691][FATAL][0x7f7971adf8c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-08 14:41:27,691][DEBUG][0x7f7971adf8c0][.main] Press ^C to exit demo
+[2021-11-08 14:41:47,764][INFO ][0x7f66a00d08c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 14:41:47,769][INFO ][0x7f66a00d08c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-08 14:41:47,769][DEBUG][0x7f66a00d08c0][.main] Press ^C to exit demo
+[2021-11-08 14:42:00,884][DEBUG][0x7f6699e29700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-08 14:42:00,884][DEBUG][0x7f6699e29700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-08 14:42:00,888][DEBUG][0x7f66a00d08c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-08 14:42:00,888][DEBUG][0x7f66a00d08c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-08 14:43:00,638][INFO ][0x7f01684858c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 14:43:00,644][INFO ][0x7f01684858c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-08 14:43:00,645][DEBUG][0x7f01684858c0][.main] Press ^C to exit demo
+[2021-11-08 14:43:12,551][INFO ][0x7f8451a0e8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-08 14:43:12,557][INFO ][0x7f8451a0e8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-08 14:43:12,557][DEBUG][0x7f8451a0e8c0][.main] Press ^C to exit demo
+[2021-11-08 14:43:16,875][DEBUG][0x7f844b767700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-08 14:43:16,875][DEBUG][0x7f844b767700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-08 14:43:16,879][DEBUG][0x7f8451a0e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-08 14:43:16,879][DEBUG][0x7f8451a0e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.

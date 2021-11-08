@@ -13,6 +13,8 @@
 
 #include <log4cxx/logger.h>
 
+#include <boost/thread/thread.hpp>
+
 #include "manager.h"
 
 #define BUFF_SIZE ((sizeof(struct inotify_event)+FILENAME_MAX)*1024)
@@ -136,29 +138,32 @@ public:
 
     inline void update()
     {
-        FD_SET( fd_, &descriptor_ );
+        int ret;
+        while( 1 ) {
+            FD_SET( fd_, &descriptor_ );
 
-        int ret = select( fd_ + 1, &descriptor_, NULL, NULL, &timeout_ );
+            ret = select( fd_ + 1, &descriptor_, NULL, NULL, &timeout_ );
 
-        if( ret < 0 )
-        {
-            LOG4CXX_DEBUG( Logger_, "select" );
-        }
-        else if ( FD_ISSET( fd_, &descriptor_) )
-        {
-            ssize_t len, i = 0;
-            char action[81 + FILENAME_MAX]= {0};
-            char buff[BUFF_SIZE] = {0};
-
-            len = read( fd_, buff, BUFF_SIZE );
-
-            while( i < len )
+            if( ret < 0 )
             {
-                struct inotify_event *pevent = (struct inotify_event *)&buff[i];
+                LOG4CXX_DEBUG( Logger_, "select" );
+            }
+            else if ( FD_ISSET( fd_, &descriptor_) )
+            {
+                ssize_t len, i = 0;
+                char action[81 + FILENAME_MAX]= {0};
+                char buff[BUFF_SIZE] = {0};
 
-                WatchStruct* watch = watches_[pevent->wd];
-                handleAction( watch, pevent->name, pevent->mask );
-                i += sizeof( struct inotify_event ) + pevent->len;
+                len = read( fd_, buff, BUFF_SIZE );
+
+                while( i < len )
+                {
+                    struct inotify_event *pevent = (struct inotify_event *)&buff[i];
+
+                    WatchStruct* watch = watches_[pevent->wd];
+                    handleAction( watch, pevent->name, pevent->mask );
+                    i += sizeof( struct inotify_event ) + pevent->len;
+                }
             }
         }
     }
@@ -186,6 +191,9 @@ public:
         }
     }
 
+    void start(void) {
+        thread_ = boost::thread( boost::bind ( &DirectoryWatcher::update, directory_watcher_ ) ); 
+    }
 private:
 
     DirectoryWatcher* directory_watcher_;
@@ -194,6 +202,8 @@ private:
     int fd_;
     struct timeval timeout_;
     fd_set descriptor_;
+
+    boost::thread thread_;
 
 };
 
@@ -222,6 +232,11 @@ void DirectoryWatcher::removeWatch( const std::string& dir_path )
 void DirectoryWatcher::update()
 {
     private_->update();
+}
+
+void DirectoryWatcher::start()
+{
+    private_->start();
 }
 
 };

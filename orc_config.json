@@ -3,8 +3,17 @@
         "version" : "1.0.0"
     },
     "orc" : {
-        "base_dir": "/home/yes/data",
-        "mode" : "Active",
-        "target_ip" : "218.36.72.199"
+        "watcher" : {
+            "base_path": "/home/yes/data/",
+            "export_path" : "/home/yes/data/intermediate/"
+        },
+        "inter_process": {
+            "mod" : "Active",
+            "ip" : "218.36.72.199",
+            "port" : 8000
+        },
+        "pfd": {
+            "max_childs" : 2
+        }
     }
 }

@@ -34,10 +34,8 @@ class UpdateListener : public orc::DirectoryWatchListener
             if ( filename.find( ".wav" ) >= 0 && orc::Actions::Add == action)
             {
                 std::cout << "a__DIR (" << dir + ") FILE (" + filename + ") has event " << action << std::endl;
-                string path = dir + filename;
-                std::cout << path << endl;
-                orc::Codecs cd;
-                cd.wavSplit( path, dir );
+                orc::Codecs decode;
+                decode.wavSplit( dir, filename );
             }
         }
 };
@@ -50,9 +48,6 @@ int main ( int argc, char ** argv )
 
         orc::DirectoryWatcher directory_watcher;
 
-        //Todo parsing from json 
-        unsigned long watchID = directory_watcher.addWatch("/home/yes/sktstt/", &listener, true);
-
         log4cxx::PropertyConfigurator::configure( log4cxx::File( LOG4CXX_CONFIG_FILE ) );
         log4cxx::LoggerPtr logger( log4cxx::Logger::getLogger( "orc" ) );
 
@@ -62,7 +57,9 @@ int main ( int argc, char ** argv )
 
         orc::Manager::instance().initialize( "orc_config.json" );
 
-        std::cout << "Press ^C to exit demo" << std::endl;
+        unsigned long watchID = directory_watcher.addWatch( orc::Manager::instance().getBaseDir(), &listener, false );
+       
+        LOG4CXX_DEBUG( logger, "Press ^C to exit demo" );
 
 		while(1)
 		{
