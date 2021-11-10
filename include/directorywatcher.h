@@ -36,6 +36,7 @@ public:
     ~DirectoryWatcher();
     unsigned long addWatch( const std::string& dir_path, DirectoryWatchListener* watch_listener, bool recursive );
     void update();
+    void start();
 
 protected:
     void removeWatch( const std::string& dir_path );
@@ -49,11 +50,12 @@ private:
 
 class DirectoryWatchListener
 {
+
 public:
     DirectoryWatchListener() {}
     virtual ~DirectoryWatchListener() {}
     virtual void handleFileAction( unsigned long id, const std::string& dir_path, const std::string& filenamem, Action action ) = 0;
-
+    
 };
 
 };

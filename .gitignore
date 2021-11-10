@@ -35,3 +35,7 @@ sites
 ./bin
 ./intermediate
 ./logs
+
+# FFmpeg
+./ffmpeg
+./*.ffmpeg

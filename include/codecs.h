@@ -23,7 +23,7 @@ public:
     ~Codecs();
 
 public:
-    int wavSplit( const std::string input_path, const std::string output_path );
+    int wavSplit( const std::string path, const std::string filename );
 
 private:
     PrivatePtr private_;

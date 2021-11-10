@@ -49,6 +49,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "cstddef": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp"
     }
 }
