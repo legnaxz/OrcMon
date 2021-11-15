@@ -28,7 +28,7 @@ namespace orc
     {
         auto self( shared_from_this() );
 
-        boost::asio::async_read( socket_, )
+        //boost::asio::async_read( socket_, )
 
     }
 
@@ -36,7 +36,6 @@ namespace orc
     {
         auto self( shared_from_this() );
 
-        
     }
 
     void InterProcessListner::close( void )

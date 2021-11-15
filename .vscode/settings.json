@@ -51,6 +51,7 @@
         "cstddef": "cpp",
         "string": "cpp",
         "condition_variable": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "strstream": "cpp"
     }
 }

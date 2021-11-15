@@ -89,12 +89,12 @@ bool Manager::OrcConfig::Watcher::bind( void )
 
 Manager::OrcConfig::InterProcess::InterProcess( void )
     : Config::SubSet( "inter_process" ) 
-    , port_ ( 0 )
+    , active_port_ ( 0 )
 {}
 
 bool Manager::OrcConfig::InterProcess::bind( void )
 {
-    uint32_t port_number;
+    uint32_t active_port, standby_port;
 
     if ( false == string ( "mod", mode_ ) )
     {
@@ -102,19 +102,32 @@ bool Manager::OrcConfig::InterProcess::bind( void )
         return false;
     }
 
-    if ( false == string ( "ip", ip_ ) )
+    if ( false == string ( "ip", active_ip_ ) )
     {
-        ip_.clear();
+        active_ip_.clear();
         return false;
     }
 
-    if ( false == number ( "port", port_number ) )
+    if ( false == number ( "port", active_port ) )
     {
-        port_ = 0;
+        active_port_ = 0;
         return false;
     }
 
-    port_ = static_cast<uint16_t>( port_number );
+    if ( false == string ( "ip", standby_ip_ ) )
+    {
+        standby_ip_.clear();
+        return false;
+    }
+
+    if ( false == number ( "port", standby_port ) )
+    {
+        standby_port_ = 0;
+        return false;
+    }
+
+    active_port_ = static_cast<uint16_t>( active_port );
+    standby_port_ = static_cast<uint16_t>( standby_port );
 
     return true;
 }
