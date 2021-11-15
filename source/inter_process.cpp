@@ -19,7 +19,7 @@ public:
     {
         boost::asio::io_context io_context;
         boost::asio::ip::tcp::endpoint endpoint( boost::asio::ip::tcp::v4(),
-            Manager::instance().orcConfig().interprocess().port() )
+            Manager::instance().orcConfig().interprocess().active_port() )
 
         TcpServer<InterProcessListner> tcp_server( io_context, endpoint );
 

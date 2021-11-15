@@ -83,14 +83,24 @@ namespace orc{
                     return mode_;
                 }
 
-                const std::string ip( void ) const noexcept
+                const std::string active_ip( void ) const noexcept
                 {
-                    return ip_;
+                    return active_ip_;
                 }
 
-                uint16_t port( void )
+                uint16_t active_port( void )
                 {
-                    return port_;
+                    return active_port_;
+                }
+
+                const std::string standby_ip( void ) const noexcept
+                {
+                    return standby_ip_;
+                }
+
+                uint16_t standby_port( void )
+                {
+                    return standby_port_;
                 }
             
             public:
@@ -98,8 +108,10 @@ namespace orc{
 
             private:
                 std::string mode_;
-                std::string ip_;
-                uint16_t port_;
+                std::string active_ip_;
+                uint16_t active_port_;
+                std::string standby_ip_;
+                uint16_t standby_port_;
             };
 
             class ProcessFD : public Config::SubSet {
