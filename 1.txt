@@ -1,0 +1,390 @@
+[2021-11-16 19:00:01,028][INFO ][orc.main] yespeech ORC starting ... (ver 1.0.0)
+check 1
+[2021-11-16 19:00:01,028][INFO ][Manager.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+a__DIR (/home/yes/data/) FILE (1.wav) has event 1
+[2021-11-16 19:00:03,864][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,864][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/1.wav -map_channel 0.0.0 /home/yes/data/intermediate/1_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/1_ch1.wav
+a__DIR (/home/yes/data/) FILE (2.wav) has event 1
+[2021-11-16 19:00:03,865][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,865][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/2.wav -map_channel 0.0.0 /home/yes/data/intermediate/2_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/2_ch1.wav
+a__DIR (/home/yes/data/) FILE (3.wav) has event 1
+[2021-11-16 19:00:03,867][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,867][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/3.wav -map_channel 0.0.0 /home/yes/data/intermediate/3_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/3_ch1.wav
+a__DIR (/home/yes/data/) FILE (4.wav) has event 1
+[2021-11-16 19:00:03,867][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,867][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/4.wav -map_channel 0.0.0 /home/yes/data/intermediate/4_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/4_ch1.wav
+a__DIR (/home/yes/data/) FILE (5.wav) has event 1
+[2021-11-16 19:00:03,868][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,868][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/5.wav -map_channel 0.0.0 /home/yes/data/intermediate/5_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/5_ch1.wav
+a__DIR (/home/yes/data/) FILE (6.wav) has event 1
+[2021-11-16 19:00:03,869][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,869][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/6.wav -map_channel 0.0.0 /home/yes/data/intermediate/6_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/6_ch1.wav
+a__DIR (/home/yes/data/) FILE (7.wav) has event 1
+[2021-11-16 19:00:03,870][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,870][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/7.wav -map_channel 0.0.0 /home/yes/data/intermediate/7_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/7_ch1.wav
+a__DIR (/home/yes/data/) FILE (8.wav) has event 1
+[2021-11-16 19:00:03,870][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,870][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/8.wav -map_channel 0.0.0 /home/yes/data/intermediate/8_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/8_ch1.wav
+a__DIR (/home/yes/data/) FILE (9.wav) has event 1
+[2021-11-16 19:00:03,870][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,870][DEBUG][Codecs.Codecs::Private::wavSplit] Is Wav Format.
+/home/yes/OrcMon/ffmpeg -i /home/yes/data/9.wav -map_channel 0.0.0 /home/yes/data/intermediate/9_ch0.wav -map_channel 0.0.1 /home/yes/data/intermediate/9_ch1.wav
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/1.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x373c1c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/1_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x375fac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/1_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.28e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/2.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x234e1c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/2_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x2371ac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/2_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.28e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/3.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x2c961c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/3_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x2cb9ac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/3_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.33e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/4.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x27271c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/4_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x274aac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/4_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.33e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/5.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x31701c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/5_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x3193ac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/5_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.31e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/6.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x3cb21c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/6_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x3cd5ac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/6_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.35e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/7.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x27b31c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/7_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x27d6ac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/7_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.37e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/8.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x28391c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/8_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x285cac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/8_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.34e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version N-90638-g3b2fd96 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-18)
+  configuration: --prefix=/home2/iotwiz/usr/local/ --disable-shared --disable-x86asm --enable-libmp3lame --extra-ldflags=-L/home2/iotwiz/usr/local/lib --extra-cflags=-I/home2/iotwiz/usr/local/include
+  libavutil      56. 13.100 / 56. 13.100
+  libavcodec     58. 17.100 / 58. 17.100
+  libavformat    58. 11.101 / 58. 11.101
+  libavdevice    58.  2.100 / 58.  2.100
+  libavfilter     7. 14.100 /  7. 14.100
+  libswscale      5.  0.102 /  5.  0.102
+  libswresample   3.  0.101 /  3.  0.101
+Guessed Channel Layout for Input Stream #0.0 : stereo
+Input #0, wav, from '/home/yes/data/9.wav':
+  Metadata:
+    encoder         : Lavf59.8.100
+  Duration: 00:00:37.78, bitrate: 256 kb/s
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, stereo, s16, 256 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #0:0 -> #1:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c0.
+[pan @ 0x31991c0] Pure channel mapping detected: 0
+Output #0, wav, to '/home/yes/data/intermediate/9_ch0.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+-map_channel is forwarded to lavfi similarly to -af pan=0x4|c0=c1.
+[pan @ 0x31bcac0] Pure channel mapping detected: 1
+Output #1, wav, to '/home/yes/data/intermediate/9_ch1.wav':
+  Metadata:
+    ISFT            : Lavf58.11.101
+    Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 8000 Hz, mono, s16, 128 kb/s
+    Metadata:
+      encoder         : Lavc58.17.100 pcm_s16le
+size=     590kB time=00:00:37.78 bitrate= 128.0kbits/s speed=1.37e+04x    
+video:0kB audio:1181kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+a__DIR (/home/yes/data/) FILE (6.wav) has event 2
+a__DIR (/home/yes/data/) FILE (8.wav) has event 2
+a__DIR (/home/yes/data/) FILE (9.wav) has event 2
+a__DIR (/home/yes/data/) FILE (7.wav) has event 2
+a__DIR (/home/yes/data/) FILE (2.wav) has event 2
+a__DIR (/home/yes/data/) FILE (1.wav) has event 2
+a__DIR (/home/yes/data/) FILE (5.wav) has event 2
+a__DIR (/home/yes/data/) FILE (4.wav) has event 2
+a__DIR (/home/yes/data/) FILE (3.wav) has event 2

@@ -14,20 +14,6 @@
 
 namespace orc {
 
-class UpdateListener : public orc::DirectoryWatchListener
-{
-    public:
-        UpdateListener() {}
-        void handleFileAction( unsigned long watchid, const std::string& dir, const std::string& filename, orc::Action action )
-        {
-            if ( filename.find( ".wav" ) >= 0 && orc::Actions::Add == action)
-            {
-                std::cout << "a__DIR (" << dir + ") FILE (" + filename + ") has event " << action << std::endl;
-                orc::Codecs decode;
-                decode.wavSplit( dir, filename );
-            }
-        }
-};
 
 Manager::OrcConfigFileInfo::OrcConfigFileInfo( void )
     : Config::SubSet( "orc_config_file" )
@@ -79,8 +65,8 @@ bool Manager::OrcConfig::Watcher::bind( void )
         return false;
     }
 
-    if ( false == string ( "export_path", export_path_) ) {
-        export_path_.clear();
+    if ( false == string ( "intermediate_path", intermediate_path_) ) {
+        intermediate_path_.clear();
         return false;
     }
 
@@ -94,7 +80,8 @@ Manager::OrcConfig::InterProcess::InterProcess( void )
 
 bool Manager::OrcConfig::InterProcess::bind( void )
 {
-    uint32_t active_port, standby_port;
+    uint32_t active_port, standby_port = 0;
+    std::cout << "check 1" << std::endl;
 
     if ( false == string ( "mod", mode_ ) )
     {
@@ -102,27 +89,27 @@ bool Manager::OrcConfig::InterProcess::bind( void )
         return false;
     }
 
-    if ( false == string ( "ip", active_ip_ ) )
+    if ( false == string ( "active_ip", active_ip_ ) )
     {
         active_ip_.clear();
         return false;
     }
 
-    if ( false == number ( "port", active_port ) )
+    if ( false == number ( "active_port", active_port ) )
     {
-        active_port_ = 0;
+        active_port = 0;
         return false;
     }
 
-    if ( false == string ( "ip", standby_ip_ ) )
+    if ( false == string ( "standby_ip", standby_ip_ ) )
     {
         standby_ip_.clear();
         return false;
     }
 
-    if ( false == number ( "port", standby_port ) )
+    if ( false == number ( "standby_port", standby_port ) )
     {
-        standby_port_ = 0;
+        standby_port = 0;
         return false;
     }
 
@@ -133,21 +120,25 @@ bool Manager::OrcConfig::InterProcess::bind( void )
 }
 
 Manager::OrcConfig::ProcessFD::ProcessFD( void )
-    : Config::SubSet( "pfd" ) 
-    , max_childs_( 1 )
+    : Config::SubSet( "pfd" )
 {}
 
 bool Manager::OrcConfig::ProcessFD::bind( void )
 {
-    uint32_t max_childs = 0;
-
-    if ( false ==  number( "max_childs", max_childs ) )
+    uint32_t child_port = 0;
+    if ( false == string ( "child_ip", child_ip_ ) )
     {
-        max_childs = 0;
+        child_ip_.clear();
         return false;
     }
 
-    max_childs_ = static_cast<uint16_t>( max_childs );
+    if ( false == number ( "child_port", child_port ) )
+    {
+        child_port = 0;
+        return false;
+    }
+
+    child_port_ = static_cast<uint16_t>( child_port );
 
     return true;
 }
@@ -183,11 +174,11 @@ class Manager::Private
             directory_watcher_ = directory_watcher;
         }
 
-        inline UpdateListener* updatelistenr( void ) {
+        inline DirectoryWatchListener* updatelistenr( void ) {
             return listener_;
         }
 
-        inline void bindUpdateListener( UpdateListener* listener )
+        inline void bindUpdateListener( DirectoryWatchListener* listener )
         {
             listener_ = listener;
         }
@@ -207,7 +198,7 @@ class Manager::Private
         boost::mutex mutex_;
 
         DirectoryWatcher *directory_watcher_;
-        UpdateListener *listener_;
+        DirectoryWatchListener *listener_;
 
         unsigned long base_watch_id_;
 
@@ -226,6 +217,8 @@ Manager::~Manager( void )
 
 bool Manager::initialize( const std::string& configFilePath )
 {
+    unsigned long base_watch_id;
+
     if ( false == Config::instance().load( configFilePath ) ) {
         LOG4CXX_FATAL( Private::Logger_, "Can not load configuration form \"" << configFilePath << "\"" );
         return false;
@@ -241,9 +234,9 @@ bool Manager::initialize( const std::string& configFilePath )
         return false;
     }
 
-    if ( !isExist( orcConfig().watcher().export_path() ) )
+    if ( !isExist( orcConfig().watcher().intermediate_path() ) )
     {
-        std::string mkdir_command = "mkdir " + orcConfig().watcher().export_path();
+        std::string mkdir_command = "mkdir " + orcConfig().watcher().intermediate_path();
         std::cout << mkdir_command << std::endl;
         system( mkdir_command.c_str() );
     }
@@ -252,7 +245,7 @@ bool Manager::initialize( const std::string& configFilePath )
                                         orc_config_file_info_.key() << "=" << orc_config_file_info_.version() );
     
     DirectoryWatcher* directory_watcher = new DirectoryWatcher();
-    UpdateListener *update_listener = new UpdateListener();
+    DirectoryWatchListener *update_listener = new DirectoryWatchListener( orcConfig().watcher().base_path(), orcConfig().watcher().intermediate_path() );
 
     private_->bindDirectoryWatcher( directory_watcher );
     private_->bindUpdateListener( update_listener );
@@ -260,11 +253,6 @@ bool Manager::initialize( const std::string& configFilePath )
     private_->watcher_start();
 
     return true;
-}
-
-std::string Manager::getBaseDir()
-{
-    return orc_config_.watcher().base_path();
 }
 
 void Manager::waitForever( void )

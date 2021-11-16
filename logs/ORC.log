@@ -321,3 +321,536 @@
 [2021-11-08 14:43:16,875][DEBUG][0x7f844b767700][orc.Codecs::Private::wavSplit] Is Wav Format.
 [2021-11-08 14:43:16,879][DEBUG][0x7f8451a0e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
 [2021-11-08 14:43:16,879][DEBUG][0x7f8451a0e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 10:29:42,827][INFO ][0x7f512c3828c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:31:26,111][INFO ][0x7f065c18c8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:31:37,360][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:32:42,254][INFO ][0x7f05429f78c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:35:01,497][INFO ][0x7f02e655d8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:35:01,497][FATAL][0x7f02e655d8c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:35:01,497][DEBUG][0x7f02e655d8c0][.main] Press ^C to exit demo
+[2021-11-16 10:35:16,012][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:35:16,012][FATAL][0x7ffff7fd68c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:35:16,012][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 10:35:46,385][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:35:46,385][FATAL][0x7ffff7fd68c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:35:46,385][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 10:41:23,886][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:41:23,886][FATAL][0x7ffff7fd68c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:41:23,886][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 10:43:04,760][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:43:04,761][FATAL][0x7ffff7fd68c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:43:04,761][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 10:55:37,848][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:55:37,848][FATAL][0x7ffff7fd68c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:55:37,848][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 10:56:45,904][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:56:45,904][FATAL][0x7ffff7fd68c0][orc.Manager::initialize] Can not load configuration sub-set for "orc"
+[2021-11-16 10:56:45,904][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 10:57:34,264][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 10:57:34,267][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 10:57:34,269][DEBUG][0x7ffff7fd68c0][.main] Press ^C to exit demo
+[2021-11-16 11:29:04,987][INFO ][0x7f30dd99f8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:29:04,988][INFO ][0x7f30dd99f8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:29:04,988][DEBUG][0x7f30dd99f8c0][.main] Press ^C to exit demo
+[2021-11-16 11:30:53,737][INFO ][0x7f20abe3a8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:30:53,737][INFO ][0x7f20abe3a8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:32:33,694][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:32:33,694][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:37:52,449][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:37:52,451][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:41:19,385][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:41:19,388][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:42:19,537][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:42:19,540][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:44:34,590][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:44:34,593][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:45:44,120][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:45:44,123][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:47:57,893][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:47:57,896][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 11:49:04,277][INFO ][0x7fb6bf8e88c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 11:49:04,278][INFO ][0x7fb6bf8e88c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 12:04:55,068][INFO ][0x7fb97d0958c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 12:04:55,071][INFO ][0x7fb97d0958c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 12:06:01,682][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 12:06:01,684][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 12:06:05,333][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 12:06:05,333][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 12:07:53,299][INFO ][0x7ffff7fd68c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 12:07:53,302][INFO ][0x7ffff7fd68c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 12:07:55,886][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 12:07:55,886][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,374][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,374][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,393][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,393][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,413][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,413][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,430][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,430][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,447][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,447][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,468][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,468][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,488][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,488][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,505][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,505][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,524][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,524][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 13:36:20,544][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 13:36:20,544][DEBUG][0x7ffff7fd68c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:22,866][INFO ][0x7f308222e8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 16:25:22,866][INFO ][0x7f308222e8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 16:25:49,764][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,764][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,784][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,784][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,803][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,803][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,823][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,823][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,841][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,841][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,858][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,858][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,895][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,895][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,913][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,913][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,931][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,931][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:25:49,954][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:25:49,954][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:43,891][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:43,891][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:43,913][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:43,913][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:43,933][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:43,933][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:43,952][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:43,952][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:43,968][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:43,968][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:43,987][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:43,987][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:44,005][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:44,005][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:44,026][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:44,026][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:44,047][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:44,047][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:27:44,064][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:27:44,064][DEBUG][0x7f308222e8c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:21,668][INFO ][0x7f55441a48c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 16:28:21,668][INFO ][0x7f55441a48c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 16:28:24,535][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,535][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,555][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,555][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,574][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,574][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,593][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,593][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,609][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,609][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,633][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,633][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,649][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,649][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,665][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,665][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,681][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,681][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:28:24,701][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:28:24,701][DEBUG][0x7f55441a48c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:14,990][INFO ][0x7f873e5848c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 16:35:14,990][INFO ][0x7f873e5848c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 16:35:28,937][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:28,937][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,010][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,010][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,025][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,025][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,035][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,035][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,044][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,044][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,052][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,052][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,062][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,062][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,085][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,085][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,094][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,094][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,103][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,103][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,109][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,109][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,127][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,127][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,140][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,140][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,149][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,149][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,160][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,160][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,167][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,168][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,175][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,175][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,183][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,183][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,190][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,190][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,200][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,200][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,208][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,208][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,215][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,215][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,233][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,233][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,240][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,240][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,248][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,248][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,257][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,257][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,265][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,265][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,274][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,274][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,281][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,281][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,288][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,288][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,296][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,296][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,303][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,303][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,311][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,311][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,331][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,331][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,341][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,341][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,348][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,348][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,356][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,356][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,364][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,364][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,373][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,373][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,380][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,380][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,388][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,388][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,395][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,395][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,402][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,402][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,409][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,409][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,428][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,428][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,437][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,437][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,445][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,445][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,452][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,452][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,459][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,459][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,467][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,467][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,474][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,475][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,483][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,483][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,492][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,492][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,500][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,500][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,506][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,506][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,523][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,523][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,530][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,530][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,538][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,538][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,546][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,546][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,563][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,564][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,572][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,572][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,593][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,593][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,601][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,601][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,609][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,609][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,624][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,624][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,631][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,631][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,650][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,650][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,657][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,657][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,665][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,665][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,674][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,674][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,683][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,683][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,690][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,690][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,698][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,698][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,706][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,706][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,714][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,714][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,724][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,724][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,734][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,734][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,754][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,754][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,764][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,764][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,771][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,771][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,778][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,778][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,787][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,787][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,796][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,796][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,804][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,804][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,814][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,814][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,821][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,821][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,833][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,833][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,841][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,844][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,866][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,866][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,877][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,877][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,884][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,884][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,892][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,892][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,902][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,902][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,909][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,909][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,916][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,916][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,923][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,923][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,954][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,954][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,983][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,983][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:29,991][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:29,991][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,008][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,008][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,019][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,019][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,027][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,027][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,040][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,040][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,072][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,072][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,091][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,092][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,104][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,104][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,116][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,116][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,124][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,124][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,133][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,133][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 16:35:30,141][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 16:35:30,141][DEBUG][0x7f873e5848c0][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 17:05:13,115][INFO ][0x7f2b5bd9b8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 17:05:13,115][INFO ][0x7f2b5bd9b8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 17:06:12,471][INFO ][0x7ff13dfe08c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 17:06:12,471][INFO ][0x7ff13dfe08c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 17:07:11,405][INFO ][0x7fd0f84d28c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 17:07:11,405][INFO ][0x7fd0f84d28c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 18:11:26,116][INFO ][0x7f1d574fb8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 18:11:26,116][INFO ][0x7f1d574fb8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 18:12:21,510][DEBUG][0x7f1d49244700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,510][DEBUG][0x7f1d49244700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,511][DEBUG][0x7f1d4a246700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,511][DEBUG][0x7f1d4a246700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,511][DEBUG][0x7f1d4c24a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,511][DEBUG][0x7f1d4c24a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,512][DEBUG][0x7f1d4e24e700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,512][DEBUG][0x7f1d4e24e700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,513][DEBUG][0x7f1d50252700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,513][DEBUG][0x7f1d50252700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,514][DEBUG][0x7f1d4d24c700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,514][DEBUG][0x7f1d4d24c700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,514][DEBUG][0x7f1d4b248700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,514][DEBUG][0x7f1d4b248700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,515][DEBUG][0x7f1d4f250700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,515][DEBUG][0x7f1d4f250700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:12:21,516][DEBUG][0x7f1d51254700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:12:21,516][DEBUG][0x7f1d51254700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:52,516][INFO ][0x7fe6a00158c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 18:13:52,516][INFO ][0x7fe6a00158c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 18:13:54,630][DEBUG][0x7fe699d6e700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,630][DEBUG][0x7fe699d6e700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,631][DEBUG][0x7fe698d6c700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,631][DEBUG][0x7fe698d6c700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,632][DEBUG][0x7fe697d6a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,632][DEBUG][0x7fe697d6a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,633][DEBUG][0x7fe696d68700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,633][DEBUG][0x7fe696d68700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,633][DEBUG][0x7fe695d66700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,633][DEBUG][0x7fe695d66700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,634][DEBUG][0x7fe694d64700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,634][DEBUG][0x7fe694d64700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,635][DEBUG][0x7fe693d62700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,635][DEBUG][0x7fe693d62700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,635][DEBUG][0x7fe692d60700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,635][DEBUG][0x7fe692d60700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:13:54,636][DEBUG][0x7fe691d5e700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:13:54,636][DEBUG][0x7fe691d5e700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:14:58,742][INFO ][0x7f7f324188c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 18:14:58,744][INFO ][0x7f7f324188c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 18:15:02,143][DEBUG][0x7f7f26165700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,143][DEBUG][0x7f7f26165700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,144][DEBUG][0x7f7f25163700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,144][DEBUG][0x7f7f25163700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,145][DEBUG][0x7f7f2a16d700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,145][DEBUG][0x7f7f2a16d700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,146][DEBUG][0x7f7f2c171700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,146][DEBUG][0x7f7f2c171700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,147][DEBUG][0x7f7f2b16f700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,147][DEBUG][0x7f7f2b16f700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,148][DEBUG][0x7f7f2916b700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,148][DEBUG][0x7f7f2916b700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,148][DEBUG][0x7f7f28169700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,148][DEBUG][0x7f7f28169700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,149][DEBUG][0x7f7f24161700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,149][DEBUG][0x7f7f24161700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:15:02,150][DEBUG][0x7f7f27167700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:15:02,150][DEBUG][0x7f7f27167700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:40,548][INFO ][0x7f565590e8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 18:57:40,548][INFO ][0x7f565590e8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 18:57:46,071][DEBUG][0x7f564f667700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,071][DEBUG][0x7f564f667700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,073][DEBUG][0x7f564e665700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,073][DEBUG][0x7f564e665700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,074][DEBUG][0x7f564d663700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,074][DEBUG][0x7f564d663700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,075][DEBUG][0x7f564c661700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,075][DEBUG][0x7f564c661700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,076][DEBUG][0x7f564b65f700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,076][DEBUG][0x7f564b65f700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,077][DEBUG][0x7f564a65d700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,077][DEBUG][0x7f564a65d700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,078][DEBUG][0x7f564965b700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,078][DEBUG][0x7f564965b700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,079][DEBUG][0x7f5648659700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,079][DEBUG][0x7f5648659700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 18:57:46,081][DEBUG][0x7f5647657700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 18:57:46,081][DEBUG][0x7f5647657700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:01,028][INFO ][0x7f592d31c8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 19:00:01,028][INFO ][0x7f592d31c8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 19:00:03,864][DEBUG][0x7f5927075700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,864][DEBUG][0x7f5927075700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,865][DEBUG][0x7f5926073700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,865][DEBUG][0x7f5926073700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,867][DEBUG][0x7f5925071700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,867][DEBUG][0x7f5925071700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,867][DEBUG][0x7f592406f700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,867][DEBUG][0x7f592406f700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,868][DEBUG][0x7f592306d700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,868][DEBUG][0x7f592306d700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,869][DEBUG][0x7f592206b700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,869][DEBUG][0x7f592206b700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,870][DEBUG][0x7f5921069700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,870][DEBUG][0x7f5921069700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,870][DEBUG][0x7f5920067700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,870][DEBUG][0x7f5920067700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:00:03,870][DEBUG][0x7f591f065700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:00:03,870][DEBUG][0x7f591f065700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:03,772][INFO ][0x7f202a0318c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 19:04:03,772][INFO ][0x7f202a0318c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 19:04:05,737][DEBUG][0x7f201dd7e700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,737][DEBUG][0x7f201dd7e700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,738][DEBUG][0x7f201cd7c700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,738][DEBUG][0x7f201cd7c700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,739][DEBUG][0x7f2021d86700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,739][DEBUG][0x7f2021d86700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,740][DEBUG][0x7f2023d8a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,740][DEBUG][0x7f2023d8a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,740][DEBUG][0x7f2022d88700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,741][DEBUG][0x7f2022d88700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,741][DEBUG][0x7f2020d84700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,741][DEBUG][0x7f2020d84700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,742][DEBUG][0x7f201fd82700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,742][DEBUG][0x7f201fd82700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,743][DEBUG][0x7f201bd7a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,743][DEBUG][0x7f201bd7a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:04:05,744][DEBUG][0x7f201ed80700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:04:05,744][DEBUG][0x7f201ed80700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:14,478][INFO ][0x7fa9124db8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 19:08:14,478][INFO ][0x7fa9124db8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 19:08:17,708][DEBUG][0x7fa90c234700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:17,708][DEBUG][0x7fa90c234700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:17,751][DEBUG][0x7fa90b232700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:17,751][DEBUG][0x7fa90b232700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:17,817][DEBUG][0x7fa90a230700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:17,818][DEBUG][0x7fa90a230700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:17,884][DEBUG][0x7fa906228700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:17,884][DEBUG][0x7fa906228700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:17,939][DEBUG][0x7fa905226700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:17,939][DEBUG][0x7fa905226700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:18,037][DEBUG][0x7fa90922e700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:18,038][DEBUG][0x7fa90922e700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:18,136][DEBUG][0x7fa90822c700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:18,136][DEBUG][0x7fa90822c700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:18,210][DEBUG][0x7fa904224700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:18,210][DEBUG][0x7fa904224700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:08:18,282][DEBUG][0x7fa90722a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:08:18,282][DEBUG][0x7fa90722a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:12,589][INFO ][0x7faabe89f8c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 19:14:12,590][INFO ][0x7faabe89f8c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 19:14:19,123][INFO ][0x7fa80d1138c0][.main] yespeech ORC starting ... (ver 1.0.0)
+[2021-11-16 19:14:19,123][INFO ][0x7fa80d1138c0][orc.Manager::initialize] Load configuration from "orc_config.json": orc_config_file=1.0.0
+[2021-11-16 19:14:21,896][DEBUG][0x7fa7fee5c700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:21,896][DEBUG][0x7fa7fee5c700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:21,938][DEBUG][0x7fa7ffe5e700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:21,938][DEBUG][0x7fa7ffe5e700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:21,976][DEBUG][0x7fa801e62700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:21,976][DEBUG][0x7fa801e62700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:22,000][DEBUG][0x7fa803e66700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:22,000][DEBUG][0x7fa803e66700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:22,024][DEBUG][0x7fa805e6a700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:22,024][DEBUG][0x7fa805e6a700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:22,049][DEBUG][0x7fa802e64700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:22,049][DEBUG][0x7fa802e64700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:22,073][DEBUG][0x7fa800e60700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:22,073][DEBUG][0x7fa800e60700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:22,096][DEBUG][0x7fa804e68700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:22,096][DEBUG][0x7fa804e68700][orc.Codecs::Private::wavSplit] Is Wav Format.
+[2021-11-16 19:14:22,136][DEBUG][0x7fa806e6c700][orc.Codecs::Private::wavSplit] Is Wav File.
+[2021-11-16 19:14:22,136][DEBUG][0x7fa806e6c700][orc.Codecs::Private::wavSplit] Is Wav Format.

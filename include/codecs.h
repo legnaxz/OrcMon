@@ -1,14 +1,7 @@
 #ifndef _CODECS_H_
 #define _CODECS_H_
 
-//Todo
-//Open wavfile
-//Open 0, 1 ch file
-//Convert wav to pcm chs
-//write file.
-//save.
 #include "common.h"
-
 
 namespace orc {
 
@@ -27,7 +20,6 @@ public:
 
 private:
     PrivatePtr private_;
-
 };
 
 };

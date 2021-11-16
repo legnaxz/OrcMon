@@ -18,6 +18,15 @@
 
 namespace orc
 {
+    namespace Actions
+    {
+        enum Action
+        {
+            Add = 1,
+            Delete = 2,
+            Modified = 4
+        };
+    };
 
     typedef std::vector<std::string> StringList;
     typedef std::vector<uint8_t *> BufferList;

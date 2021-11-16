@@ -4,7 +4,7 @@
 #include <boost/asio.hpp>
 #include <boost/bind/bind.hpp>
 
-namespace vas {
+namespace orc {
 
 template<class T>
 class TcpServer {

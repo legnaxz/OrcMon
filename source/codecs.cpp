@@ -7,7 +7,7 @@
 #include <iostream>
 #include <fstream>
 #include <string.h>
-
+#include <tcp_client.h>
 #include <log4cxx/logger.h>
 
 static std::string ffmpeg_path = "/home/yes/OrcMon/ffmpeg -i ";
@@ -64,8 +64,9 @@ namespace orc
         {
             int total_len = 0;
             int header_size = sizeof( wav_hdr_ );
+            int wait_command_finish = 0;
             uint32_t bytes_size;
-
+            
             std::string file_path = path + filename;
             std::string output_path = path + "intermediate/";
             
@@ -100,7 +101,7 @@ namespace orc
                                                         map_channel_0 + output_path + output_file_ch0 + " " +
                                                         map_channel_1 + output_path + output_file_ch1;
                         std::cout << split_command << std::endl;
-                        system( split_command.c_str() );
+                        wait_command_finish = system( split_command.c_str() );
                     }
                     else
                     {
@@ -109,6 +110,7 @@ namespace orc
                 }
                 else
                 {
+                   
                     LOG4CXX_DEBUG( Logger_, "Is PCM File." );
                     std::string output_file_ch0 = removeExtension( filename ) + "_ch0.wav";
                     std::string output_file_ch1 = removeExtension( filename ) + "_ch1.wav";
@@ -116,7 +118,7 @@ namespace orc
                     std::string split_command = ffmpeg_path + file_path + " " +
                                                     map_channel_0 + output_file_ch0 + " " +
                                                     map_channel_1 + output_file_ch1;
-                    system( split_command.c_str() );
+                    wait_command_finish = system( split_command.c_str() );
                 }
 
                 delete header;
@@ -126,7 +128,7 @@ namespace orc
             {
                 std::cout << "open failed. " << std::endl;
             }
-
+            
             return 0;
         }
 
@@ -142,7 +144,10 @@ namespace orc
 
     Codecs::~Codecs()
     {
-        delete private_;
+        if ( nullptr != private_ ) {
+            delete private_;
+        }
+          
     }
 
     int Codecs::wavSplit( const std::string path, const std::string filename )
