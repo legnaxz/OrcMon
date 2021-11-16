@@ -9,7 +9,9 @@
 
 #include "manager.h"
 #include "version.h"
-#include "directorywatcher.h"
+#include "directory_watcher.h"
+#include "directory_watch_listener.h"
+
 #include "codecs.h"
 
 #include <log4cxx/logger.h>
@@ -25,27 +27,10 @@
 
 using namespace std;
 
-class UpdateListener : public orc::DirectoryWatchListener
-{
-    public:
-        UpdateListener() {}
-        void handleFileAction( unsigned long watchid, const std::string& dir, const std::string& filename, orc::Action action )
-        {
-            if ( filename.find( ".wav" ) >= 0 && orc::Actions::Add == action)
-            {
-                std::cout << "a__DIR (" << dir + ") FILE (" + filename + ") has event " << action << std::endl;
-                orc::Codecs decode;
-                decode.wavSplit( dir, filename );
-            }
-        }
-};
-
 int main ( int argc, char ** argv )
 {
     try
     {
-        UpdateListener listener;
-
         orc::DirectoryWatcher directory_watcher;
 
         log4cxx::PropertyConfigurator::configure( log4cxx::File( LOG4CXX_CONFIG_FILE ) );
@@ -57,14 +42,8 @@ int main ( int argc, char ** argv )
 
         orc::Manager::instance().initialize( "orc_config.json" );
 
-        unsigned long watchID = directory_watcher.addWatch( orc::Manager::instance().getBaseDir(), &listener, false );
-       
         LOG4CXX_DEBUG( logger, "Press ^C to exit demo" );
 
-		while(1)
-		{
-			directory_watcher.update();
-		}
     }
     catch(const std::exception& e)
     {

@@ -5,17 +5,18 @@
     "orc" : {
         "watcher" : {
             "base_path": "/home/yes/data/",
-            "export_path" : "/home/yes/data/intermediate/"
+            "intermediate_path" : "/home/yes/data/intermediate/"
         },
         "inter_process": {
             "mod" : "Active",
             "active_ip" : "127.0.0.1",
             "active_port" : 3000,
             "standby_ip" : "127.0.0.1",
-            "standby_port" : 3010,
+            "standby_port" : 3010
         },
         "pfd": {
-            "max_childs" : 2
+            "child_ip" : "127.0.0.1",
+            "child_port" : 3011
         }
     }
 }

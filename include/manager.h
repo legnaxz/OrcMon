@@ -5,15 +5,15 @@
 #include "singletone.h"
 #include "config.h"
 
-#include "directorywatcher.h"
-#include "codecs.h"
+#include "directory_watcher.h"
+#include "directory_watch_listener.h"
 
 #include <sys/types.h>
 #include <sys/stat.h>
 
 namespace orc{
 
-    class UpdateListener;
+    class DirectoryWatchListener;
 
     class Manager : public Singleton<Manager>
     {
@@ -58,9 +58,9 @@ namespace orc{
                     return base_path_;
                 }
 
-                const std::string export_path( void ) const noexcept 
+                const std::string intermediate_path( void ) const noexcept 
                 {
-                    return export_path_;
+                    return intermediate_path_;
                 }
             
             private:
@@ -68,7 +68,7 @@ namespace orc{
 
             private:
                 std::string base_path_;
-                std::string export_path_;
+                std::string intermediate_path_;
             };
 
             class InterProcess : public Config::SubSet {
@@ -121,16 +121,22 @@ namespace orc{
                 ProcessFD( void );
             
             public:
-                uint16_t max_child( void )
+                const std::string child_ip( void ) const noexcept
                 {
-                    return max_childs_;
+                    return child_ip_;
+                }
+
+                const uint16_t child_port( void ) const noexcept
+                {
+                    return child_port_;
                 }
 
             public:
                 bool bind ( void ) override;
             
             private:
-                uint16_t max_childs_;
+                std::string child_ip_;
+                uint16_t child_port_;
 
             };
         
@@ -167,8 +173,6 @@ namespace orc{
     
     public: 
         bool initialize( const std::string& configFilePath );
-
-        std::string getBaseDir();
         
         const OrcConfigFileInfo& orcConfigFileInfo( void ) {
             return orc_config_file_info_;

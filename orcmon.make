@@ -68,6 +68,7 @@ endif
 
 OBJECTS := \
   $(OBJDIR)/DirectoryWatcher.o \
+  $(OBJDIR)/DirectoryWatchListener.o \
   $(OBJDIR)/Codecs.o \
   $(OBJDIR)/config.o \
   $(OBJDIR)/manager.o \
@@ -133,9 +134,12 @@ endif
 $(OBJDIR)/Codecs.o: ./source/codecs.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<  
-$(OBJDIR)/DirectoryWatcher.o: ./source/directorywatcher.cpp
+$(OBJDIR)/DirectoryWatcher.o: ./source/directory_watcher.cpp
 	@echo $(notdir $<)
-	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<  
+	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
+$(OBJDIR)/DirectoryWatchListener.o: ./source/directory_watch_listener.cpp
+	@echo $(notdir $<)
+	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
 $(OBJDIR)/config.o: ./source/config.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o $@ -c $<
